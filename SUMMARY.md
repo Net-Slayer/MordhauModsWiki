@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome!](README.md)
+* [👋 Welcome to the Mordhau Modding Wiki!](README.md)
 
 ## Introduction
 
