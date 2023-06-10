@@ -32,7 +32,7 @@
 
 ## GameModes
 
-* [Overview](gamemodes/page-1.md)
+* [Overview](gamemodes/overview.md)
 * [Creating a custom GameMode](gamemodes/creating-a-custom-gamemode.md)
 * [Defining Game Rules and Objectives](gamemodes/defining-game-rules-and-objectives.md)
 * [Managing Respawns](gamemodes/managing-respawns.md)
@@ -42,7 +42,7 @@
 
 ## Custom Content
 
-* [Importing 3D Assets](custom-content/page-2.md)
+* [Importing 3D Assets](custom-content/importing-3d-assets.md)
 * [Creating Custom Characters and Animations](custom-content/creating-custom-characters-and-animations.md)
 * [Creating Custom Weapons](custom-content/creating-custom-weapons.md)
 * [Modifying weapon behaviours and stats](custom-content/modifying-weapon-behaviours-and-stats.md)
