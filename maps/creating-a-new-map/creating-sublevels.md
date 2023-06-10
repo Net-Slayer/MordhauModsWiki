@@ -31,4 +31,3 @@ Then you’ll have to double click on Persistent Level again, so it shows <mark 
 ![](https://lh5.googleusercontent.com/kvIlbUNlfMZOjf1cCW7tc9NfhaDafbfLcN725ca2MhVUvrbNuI6rjZL45g2Wvjhy6\_FjoB9xbXksVoq80zlvcflna4PLzO2aokdWJnietWkWPmN5wolIcDcfNPQCjtuJMpp5prngY0\_Z2KUTLznNUeM)
 
 Sublevel is now complete, you can add your gamemode and anything needed with it. Now if we wanted to play on this map we would run **`changemap SKM_CabbageLand`**
-
