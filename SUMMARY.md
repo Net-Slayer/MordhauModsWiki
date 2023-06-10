@@ -2,10 +2,6 @@
 
 * [👋 Welcome to the Mordhau Modding Wiki!](README.md)
 
-## Group 1
-
-* [Page 4](group-1/page-4.md)
-
 ## Introduction
 
 * [Mordhau](introduction/mordhau.md)
