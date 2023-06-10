@@ -28,7 +28,7 @@
 
 ## GameModes
 
-* [Overview](gamemodes/overview.md)
+* [Overview](gamemodes/page-1.md)
 * [Creating a custom GameMode](gamemodes/creating-a-custom-gamemode.md)
 * [Defining Game Rules and Objectives](gamemodes/defining-game-rules-and-objectives.md)
 * [Managing Respawns](gamemodes/managing-respawns.md)
@@ -38,7 +38,7 @@
 
 ## Custom Content
 
-* [Importing 3D Assets](custom-content/importing-3d-assets.md)
+* [Importing 3D Assets](custom-content/page-2.md)
 * [Creating Custom Characters and Animations](custom-content/creating-custom-characters-and-animations.md)
 * [Creating Custom Weapons](custom-content/creating-custom-weapons.md)
 * [Modifying weapon behaviours and stats](custom-content/modifying-weapon-behaviours-and-stats.md)
@@ -49,9 +49,12 @@
 
 ## Advanced Topics
 
-* [Page 3](advanced-topics/page-3.md)
+* [Blueprint interactions](advanced-topics/blueprint-interactions.md)
+* [Networking and Multiplayer](advanced-topics/networking-and-multiplayer.md)
+* [Optimising Performance And Level Design](advanced-topics/optimising-performance-and-level-design.md)
+* [Advanced Debugging Techniques](advanced-topics/advanced-debugging-techniques.md)
+* [Troubleshooting Common Issues](advanced-topics/troubleshooting-common-issues.md)
 
 ***
 
-* [Official Mordhau Discord](https://discordapp.com/invite/mordhau)
-* [Mordhau Modding Discord](https://discord.gg/brD8SuuDBh)
+* [Community Resources](community-resources.md)
