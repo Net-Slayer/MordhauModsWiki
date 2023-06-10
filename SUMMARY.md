@@ -28,11 +28,24 @@
 
 ## GameModes
 
-* [Page 1](gamemodes/page-1.md)
+* [Overview](gamemodes/overview.md)
+* [Creating a custom GameMode](gamemodes/creating-a-custom-gamemode.md)
+* [Defining Game Rules and Objectives](gamemodes/defining-game-rules-and-objectives.md)
+* [Managing Respawns](gamemodes/managing-respawns.md)
+* [Score and Victory Conditions](gamemodes/score-and-victory-conditions.md)
+* [Changing UI and HUD Elements](gamemodes/changing-ui-and-hud-elements.md)
+* [Handling Events and GameState](gamemodes/handling-events-and-gamestate.md)
 
 ## Custom Content
 
-* [Page 2](custom-content/page-2.md)
+* [Importing 3D Assets](custom-content/importing-3d-assets.md)
+* [Creating Custom Characters and Animations](custom-content/creating-custom-characters-and-animations.md)
+* [Creating Custom Weapons](custom-content/creating-custom-weapons.md)
+* [Modifying weapon behaviours and stats](custom-content/modifying-weapon-behaviours-and-stats.md)
+* [Ai Behaviours and NPC Interactions](custom-content/ai-behaviours-and-npc-interactions.md)
+* [Custom Sound Effects and Music](custom-content/custom-sound-effects-and-music.md)
+* [Special effects and Particle Systems](custom-content/special-effects-and-particle-systems.md)
+* [Sharing Custom Content](custom-content/sharing-custom-content.md)
 
 ## Advanced Topics
 
