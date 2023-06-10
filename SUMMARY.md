@@ -18,10 +18,12 @@
 * [Installation](getting-started/installation.md)
 * [Setup](getting-started/setup.md)
 * [Recommendations](getting-started/recommendations.md)
+* [Common Terminology](getting-started/common-terminology.md)
 
 ## Maps
 
-* [Creating a new map](maps/creating-a-new-map.md)
+* [Creating a new map](maps/creating-a-new-map/README.md)
+  * [Creating Sublevels](maps/creating-a-new-map/creating-sublevels.md)
 * [Terrain and Landscape Editing](maps/terrain-and-landscape-editing.md)
 * [Static Meshes and Props](maps/static-meshes-and-props.md)
 * [Lighting and Atmosphere](maps/lighting-and-atmosphere.md)
