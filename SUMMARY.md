@@ -42,7 +42,9 @@
 
 * [Importing 3D Assets](custom-content/importing-3d-assets.md)
 * [Creating Custom Characters and Animations](custom-content/creating-custom-characters-and-animations.md)
-* [Creating Custom Weapons](custom-content/creating-custom-weapons.md)
+* [Creating Custom Weapons](custom-content/creating-custom-weapons/README.md)
+  * [Weapon Variables](custom-content/creating-custom-weapons/weapon-variables.md)
+  * [Projectiles](custom-content/creating-custom-weapons/projectiles.md)
 * [Modifying weapon behaviours and stats](custom-content/modifying-weapon-behaviours-and-stats.md)
 * [Ai Behaviours and NPC Interactions](custom-content/ai-behaviours-and-npc-interactions.md)
 * [Custom Sound Effects and Music](custom-content/custom-sound-effects-and-music.md)
