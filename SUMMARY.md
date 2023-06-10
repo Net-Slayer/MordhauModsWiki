@@ -22,7 +22,7 @@
 
 ## Maps
 
-* [Creating a new map](maps/creating-a-new-map/README.md)
+* [Creating a new map](maps/creating-a-new-map.md)
   * [Creating Sublevels](maps/creating-a-new-map/creating-sublevels.md)
 * [Terrain and Landscape Editing](maps/terrain-and-landscape-editing.md)
 * [Static Meshes and Props](maps/static-meshes-and-props.md)
