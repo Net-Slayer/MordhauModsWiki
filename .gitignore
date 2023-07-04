@@ -1,16 +1,13 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
 
-# Book build output
-_book
-
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+# Temporary lock file while building
+/.hugo_build.lock
