@@ -1,0 +1,4 @@
+baseURL = "/"
+title = "Mordhau Mods Wiki"
+languageCode = 'en-us'
+theme = 'docsy'
