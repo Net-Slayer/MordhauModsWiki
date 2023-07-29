@@ -1,4 +1,9 @@
 baseURL = "/"
 title = "Mordhau Mods Wiki"
+enableRobotsTXT = true
 languageCode = 'en-us'
-theme = 'docsy'
+theme = "compose"
+enableGitInfo = true
+
+[outputs]
+  home = ["HTML", "RSS","JSON"]
