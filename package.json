@@ -1,0 +1,15 @@
+{
+	"type": "module",
+	"devDependencies": {
+		"vitepress": "^1.0.0-beta.7",
+		"vitepress-sidebar": "^1.10.0"
+	},
+	"scripts": {
+		"docs:dev": "vitepress dev docs",
+		"docs:build": "vitepress build docs",
+		"docs:preview": "vitepress preview docs"
+	},
+	"dependencies": {
+		"netlify-cms-app": "^2.15.72"
+	}
+}
