@@ -14,7 +14,7 @@ export default ({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Docs', link: '/getting-started/installation' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
@@ -26,12 +26,7 @@ export default ({
 		capitalizeFirst: true,
 		sortByFileName: [
 			"Introduction", 
-			"Getting Started", 
-			"Maps", 
-			"Gamemodes", 
-			"Custom Content",
-			"Advanced topics",
-			"Community Resources"
+			"Getting Started"
 		]
 		}),
   }

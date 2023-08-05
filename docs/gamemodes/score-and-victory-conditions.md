@@ -1,2 +1,0 @@
-# Score and Victory Conditions
-

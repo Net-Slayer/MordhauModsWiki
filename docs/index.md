@@ -8,11 +8,11 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Modding
-      link: /introduction
+      text: Intro
+      link: /introduction/mordhau
     - theme: alt
-      text: Server Hosting
-      link: /server-hosting
+      text: Getting Started
+      link: /getting-started/installation
 
 features:
   - title: Feature A
