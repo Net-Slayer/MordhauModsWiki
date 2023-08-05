@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Modding
-      link: /introduction
+      link: /introduction/mordhau
     - theme: alt
       text: Server Hosting
       link: /server-hosting

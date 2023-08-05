@@ -14,7 +14,7 @@ export default ({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Docs', link: '/introduction/mordhau' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
@@ -25,13 +25,13 @@ export default ({
 		hyphenToSpace: true,
 		capitalizeFirst: true,
 		sortByFileName: [
-			"Introduction", 
-			"Getting Started", 
-			"Maps", 
-			"Gamemodes", 
-			"Custom Content",
-			"Advanced topics",
-			"Community Resources"
+			"introduction", 
+			"getting-started", 
+			"maps", 
+			"gamemodes", 
+			"custom-content",
+			"advanced-topics",
+			"community-resources"
 		]
 		}),
   }

@@ -6,7 +6,8 @@
 		"vitepress-sidebar": "^1.10.0"
 	},
 	"peerDependencies": {
-		"vue": "^3.0.0"
+		"vue": "^3.3.4",
+		"vite": "^4.4.7"
 		},
 	"scripts": {
 		"docs:dev": "vitepress dev docs",
