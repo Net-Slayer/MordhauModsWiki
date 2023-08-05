@@ -9,17 +9,13 @@ hero:
   actions:
     - theme: brand
       text: Modding
-      link: /introduction/mordhau
+      link: /modding
+	- theme: alt
+      text: Playing with mods
+      link: /playing-with-mods
     - theme: alt
-      text: Server Hosting
+      text: Hosting modded servers
       link: /server-hosting
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
