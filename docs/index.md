@@ -9,8 +9,8 @@ hero:
   actions:
     - theme: brand
       text: Modding
-      link: /modding
-	- theme: alt
+      link: /modding/introduction/mordhau
+    - theme: alt
       text: Playing with mods
       link: /playing-with-mods
     - theme: alt

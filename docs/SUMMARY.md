@@ -4,60 +4,60 @@
 
 ## Introduction
 
-* [Mordhau](introduction/mordhau.md)
-* [uSDK to SDK](introduction/usdk-to-sdk.md)
-* [Unreal Engine 4](introduction/unreal-engine-4.md)
+* [Mordhau](modding/introduction/mordhau.md)
+* [uSDK to SDK](modding/introduction/usdk-to-sdk.md)
+* [Unreal Engine 4](modding/introduction/unreal-engine-4.md)
 
 ## Getting Started
 
-* [Prerequisites and Requirements](getting-started/prerequisites-and-requirements.md)
-* [Installation](getting-started/installation.md)
-* [Setup](getting-started/setup.md)
-* [Recommendations](getting-started/recommendations.md)
-* [Common Terminology](getting-started/common-terminology.md)
+* [Prerequisites and Requirements](modding/getting-started/prerequisites-and-requirements.md)
+* [Installation](modding/getting-started/installation.md)
+* [Setup](modding/getting-started/setup.md)
+* [Recommendations](modding/getting-started/recommendations.md)
+* [Common Terminology](modding/getting-started/common-terminology.md)
 
 ## Maps
 
-* [Creating a new map](maps/creating-a-new-map.md)
-  * [Creating Sublevels](maps/creating-a-new-map/creating-sublevels.md)
-* [Terrain and Landscape Editing](maps/terrain-and-landscape-editing.md)
-* [Static Meshes and Props](maps/static-meshes-and-props.md)
-* [Lighting and Atmosphere](maps/lighting-and-atmosphere.md)
-* [Adding Player Spawn Locations](maps/adding-player-spawn-locations.md)
-* [Skyboxes](maps/skyboxes.md)
-* [Weather](maps/weather.md)
-* [Testing and Debugging](maps/testing-and-debugging.md)
+* [Creating a new map](modding/maps/creating-a-new-map.md)
+  * [Creating Sublevels](modding/maps/creating-a-new-map/creating-sublevels.md)
+* [Terrain and Landscape Editing](modding/maps/terrain-and-landscape-editing.md)
+* [Static Meshes and Props](modding/maps/static-meshes-and-props.md)
+* [Lighting and Atmosphere](modding/maps/lighting-and-atmosphere.md)
+* [Adding Player Spawn Locations](modding/maps/adding-player-spawn-locations.md)
+* [Skyboxes](modding/maps/skyboxes.md)
+* [Weather](modding/maps/weather.md)
+* [Testing and Debugging](modding/maps/testing-and-debugging.md)
 
 ## GameModes
 
-* [Overview](gamemodes/overview.md)
-* [Creating a custom GameMode](gamemodes/creating-a-custom-gamemode.md)
-* [Defining Game Rules and Objectives](gamemodes/defining-game-rules-and-objectives.md)
-* [Managing Respawns](gamemodes/managing-respawns.md)
-* [Score and Victory Conditions](gamemodes/score-and-victory-conditions.md)
-* [Changing UI and HUD Elements](gamemodes/changing-ui-and-hud-elements.md)
-* [Handling Events and GameState](gamemodes/handling-events-and-gamestate.md)
+* [Overview](modding/gamemodes/overview.md)
+* [Creating a custom GameMode](modding/gamemodes/creating-a-custom-gamemode.md)
+* [Defining Game Rules and Objectives](modding/gamemodes/defining-game-rules-and-objectives.md)
+* [Managing Respawns](modding/gamemodes/managing-respawns.md)
+* [Score and Victory Conditions](modding/gamemodes/score-and-victory-conditions.md)
+* [Changing UI and HUD Elements](modding/gamemodes/changing-ui-and-hud-elements.md)
+* [Handling Events and GameState](modding/gamemodes/handling-events-and-gamestate.md)
 
 ## Custom Content
 
-* [Importing 3D Assets](custom-content/importing-3d-assets.md)
-* [Creating Custom Characters and Animations](custom-content/creating-custom-characters-and-animations.md)
-* [Creating Custom Weapons](custom-content/creating-custom-weapons/README.md)
-  * [Weapon Variables](custom-content/creating-custom-weapons/weapon-variables.md)
-  * [Projectiles](custom-content/creating-custom-weapons/projectiles.md)
-* [Modifying weapon behaviours and stats](custom-content/modifying-weapon-behaviours-and-stats.md)
-* [Ai Behaviours and NPC Interactions](custom-content/ai-behaviours-and-npc-interactions.md)
-* [Custom Sound Effects and Music](custom-content/custom-sound-effects-and-music.md)
-* [Special effects and Particle Systems](custom-content/special-effects-and-particle-systems.md)
-* [Sharing Custom Content](custom-content/sharing-custom-content.md)
+* [Importing 3D Assets](modding/custom-content/importing-3d-assets.md)
+* [Creating Custom Characters and Animations](modding/custom-content/creating-custom-characters-and-animations.md)
+* [Creating Custom Weapons](modding/custom-content/creating-custom-weapons/README.md)
+  * [Weapon Variables](modding/custom-content/creating-custom-weapons/weapon-variables.md)
+  * [Projectiles](modding/custom-content/creating-custom-weapons/projectiles.md)
+* [Modifying weapon behaviours and stats](modding/custom-content/modifying-weapon-behaviours-and-stats.md)
+* [Ai Behaviours and NPC Interactions](modding/custom-content/ai-behaviours-and-npc-interactions.md)
+* [Custom Sound Effects and Music](modding/custom-content/custom-sound-effects-and-music.md)
+* [Special effects and Particle Systems](modding/custom-content/special-effects-and-particle-systems.md)
+* [Sharing Custom Content](modding/custom-content/sharing-custom-content.md)
 
 ## Advanced Topics
 
-* [Blueprint interactions](advanced-topics/blueprint-interactions.md)
-* [Networking and Multiplayer](advanced-topics/networking-and-multiplayer.md)
-* [Optimising Performance And Level Design](advanced-topics/optimising-performance-and-level-design.md)
-* [Advanced Debugging Techniques](advanced-topics/advanced-debugging-techniques.md)
-* [Troubleshooting Common Issues](advanced-topics/troubleshooting-common-issues.md)
+* [Blueprint interactions](modding/advanced-topics/blueprint-interactions.md)
+* [Networking and Multiplayer](modding/advanced-topics/networking-and-multiplayer.md)
+* [Optimising Performance And Level Design](modding/advanced-topics/optimising-performance-and-level-design.md)
+* [Advanced Debugging Techniques](modding/advanced-topics/advanced-debugging-techniques.md)
+* [Troubleshooting Common Issues](modding/advanced-topics/troubleshooting-common-issues.md)
 
 ***
 

@@ -6,19 +6,24 @@ import { generateSidebar } from 'vitepress-sidebar'
 export default ({
   title: "Mordhau Mods Wiki",
   description: "A community modding wiki for mordhau",
-    // ssr: {
-      // noExternal: ['vitepress-sidebar']
-
-    // },  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/introduction/mordhau' }
+      { text: 'Docs', link: 'modding/introduction/mordhau' },
+      { text: 'Portal', link: 'admin/index.html' }
     ],
+	editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Net-Slayer/MordhauModsWiki' }
     ],
+	lastUpdated: 'Last Updated',
+	search: {
+		provider: 'local'
+	},
     sidebar: generateSidebar({
 		documentRootPath: '/docs',
 		collapseDepth: 2,
@@ -35,4 +40,5 @@ export default ({
 		]
 		}),
   }
+
 })
