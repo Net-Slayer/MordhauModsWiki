@@ -6,7 +6,6 @@ import { generateSidebar } from 'vitepress-sidebar'
 export default ({
   title: "Mordhau Mods Wiki",
   description: "A community modding wiki for mordhau",
-  base: "/MordhauModsWiki/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
