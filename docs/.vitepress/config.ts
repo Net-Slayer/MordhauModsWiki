@@ -29,11 +29,12 @@ export default ({
 		collapseDepth: 2,
 		hyphenToSpace: true,
 		capitalizeFirst: true,
-		sortByFileName: [
-			"introduction", 
-			"getting-started", 
-			"maps", 
-			"gamemodes", 
+    excludeFiles: ["README.md", "SUMMARY.md"],
+		manualSortFileNameByPriority: [
+			"introduction",
+			"getting-started",
+			"maps",
+			"gamemodes",
 			"custom-content",
 			"advanced-topics",
 			"community-resources"
