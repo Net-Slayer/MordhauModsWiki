@@ -27,16 +27,21 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
-      # - uses: pnpm/action-setup@v2 # Uncomment this if you're using pnpm
-      - name: Setup Node
+        uses: pnpm/action-setup@v2 # Uncomment this if you're using pnpm
+        with:
+          version: 8
+      - name: Setup Node ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: ${{ matrix.node-version }}
           cache: pnpm # or npm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v3
