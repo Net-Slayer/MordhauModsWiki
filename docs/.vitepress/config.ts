@@ -11,7 +11,7 @@ export default ({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Docs', link: 'modding/introduction/mordhau' },
-      { text: 'Portal', link: '/admin' }
+      { text: 'Portal', link: '/admin/' }
     ],
 	editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
