@@ -43,7 +43,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install # or npm ci / yarn install
       - name: Build with VitePress
-        run: |
+        run:
           pnpm docs:build # or npm run docs:build / yarn docs:build
           touch docs/.vitepress/dist/.nojekyll
       - name: Upload artifact
