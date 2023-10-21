@@ -21,7 +21,7 @@
 		"docs:preview": "vitepress preview docs"
 	},
 	"dependencies": {
-		"netlify-cms-app": "^2.15.72"
+		"decap-cms-app": "^3.0.12"
 	},
 	"pnpm": {
 		"peerDependencyRules": {
