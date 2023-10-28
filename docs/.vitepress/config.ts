@@ -6,12 +6,15 @@ import { generateSidebar } from 'vitepress-sidebar'
 export default ({
   title: "Mordhau Mods Wiki",
   description: "A community modding wiki for mordhau",
+  rewrites: {
+    'admin/': 'admin/index.html'
+	},
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: 'modding/introduction/mordhau' },
-      { text: 'Portal', link: '/admin/' }
+      { text: 'Docs', link: '/modding/introduction/mordhau' },
+      { text: 'Login', link: '/admin/index.html', target: '_self' }
     ],
 	editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
@@ -29,7 +32,8 @@ export default ({
 		collapseDepth: 2,
 		hyphenToSpace: true,
 		capitalizeFirst: true,
-    excludeFiles: ["README.md", "SUMMARY.md"],
+		sortMenusByFrontmatterOrder: true,
+		excludeFiles: ["README.md", "SUMMARY.md"],
 		manualSortFileNameByPriority: [
 			"introduction",
 			"getting-started",
