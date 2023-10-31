@@ -2,6 +2,7 @@ backend:
   name: github
   repo: Net-Slayer/MordhauModsWiki
   branch: main 
+  base_url: https://mordhaumaiadb-oauth.onrender.com
 media_folder: "docs/public/media"
 public_folder: "/media"
 publish_mode: editorial_workflow
