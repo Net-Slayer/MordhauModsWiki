@@ -8,43 +8,30 @@ public_folder: "/media"
 publish_mode: editorial_workflow
 
 collections:
-  - label: "Home"
-    name: "home"
+  - label: "Main Website"
+    name: "docs"
+    delete: false
     files:
       - label: "Homepage"
         name: "homepage"
         file: "docs/index.md"
         delete: false
         fields:
-          - { label: "Home", name: "home", widget: "hidden", default: true }
-          - {
-              label: "Hero image",
-              name: "heroImage",
-              widget: "image",
-              required: false,
-            }
-          - { label: "Hero text", name: "heroText", widget: "string" }
-          - {
-              label: "Tagline",
-              name: "tagline",
-              widget: "string",
-              required: false,
-            }
-          - { label: "Action text", name: "actionText", widget: "string" }
-          - { label: "Action link", name: "actionLink", widget: "string" }
-          - label: Features
-            name: features
-            widget: list
+          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Details", name: "details", widget: "string" }
-          - {
-              label: "Footer",
-              name: "footer",
-              widget: "string",
-              required: false,
-            }
-          - { label: "Body", name: body, widget: markdown, required: false }
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "Tagline", name: "tagline", widget: "string"}
+              - label: "Actions"
+                name: "actions"
+                widget: "list"
+                fields:
+                  - {label: "Theme", name: "theme", widget: "string"}
+                  - {label: "Text", name: "text", widget: "string"}
+                  - {label: "Link", name: "link", widget: "string"}
   - label: "Post"
     name: "posts"
     folder: "docs/"
