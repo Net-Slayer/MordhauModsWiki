@@ -1,11 +1,9 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
 hero:
-  name: "Mordhau Mods Wiki"
-  text: "A community modding wiki for mordhau"
-  tagline: My great project tagline
+  name: Mordhau Mods Wiki
+  text: A community modding wiki for mordhau
+  tagline: My great project tagline has changed
   actions:
     - theme: brand
       text: Modding
@@ -16,6 +14,4 @@ hero:
     - theme: alt
       text: Hosting modded servers
       link: /server-hosting
-
 ---
-
