@@ -7,7 +7,7 @@ export default ({
   title: "Mordhau Mods Wiki",
   description: "A community modding wiki for mordhau",
   titleTemplate: ':title - Mordhau Mods Wiki',
-  appearance: dark,
+  appearance: 'dark',
   lastUpdated: true,
   rewrites: { 'admin/': 'admin/index.html' },
   themeConfig: {
