@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"devDependencies": {
 		"decap-server": "^3.0.1",
-		"vitepress": "1.0.0-rc.22",
+		"vitepress": "^1.0.0-rc.25",
 		"vitepress-sidebar": "^1.18.0"
 	},
 	"peerDependencies": {

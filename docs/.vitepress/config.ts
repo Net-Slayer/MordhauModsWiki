@@ -18,7 +18,7 @@ export default ({
       { text: 'Login', link: '/admin/index.html', target: '_self' }
     ],
 	editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/Net-Slayer/MordhauModsWiki/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
     socialLinks: [
