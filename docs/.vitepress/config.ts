@@ -6,9 +6,10 @@ import { generateSidebar } from 'vitepress-sidebar'
 export default ({
   title: "Mordhau Mods Wiki",
   description: "A community modding wiki for mordhau",
-  rewrites: {
-    'admin/': 'admin/index.html'
-	},
+  titleTemplate: ':title - Mordhau Mods Wiki',
+  appearance: dark,
+  lastUpdated: true,
+  rewrites: { 'admin/': 'admin/index.html' },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

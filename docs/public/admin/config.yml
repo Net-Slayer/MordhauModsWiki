@@ -22,6 +22,7 @@ collections:
         delete: false
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - {label: "TitleTemplate", name: "titleTemplate", widget: "hidden", default: "false"}
           - label: "Hero"
             name: "hero"
             widget: "object"
@@ -46,15 +47,14 @@ collections:
                       - {label: "Alt", value: "alt"}
                     default:
                       - {label: "Alt", value: "alt"}
-                    
-  - label: "Post"
+  - label: "Posts"
     name: "posts"
     folder: "docs/"
     create: true
     fields:
-      label: "Category"
-      name: "category"
-      widget: "string"
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Meta description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Category"
+        name: "category"
+        widget: "string"
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

@@ -1,5 +1,6 @@
 ---
 layout: home
+titleTemplate: false
 hero:
   name: Mordhau Mods Wiki
   text: A community modding wiki for mordhau
