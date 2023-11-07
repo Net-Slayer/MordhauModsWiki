@@ -3,6 +3,7 @@
 	"type": "module",
 	"main": "index.js",
 	"devDependencies": {
+		"concurrently": "^8.2.2",
 		"decap-server": "^3.0.1",
 		"vitepress": "1.0.0-rc.25",
 		"vitepress-sidebar": "^1.18.0"
@@ -17,9 +18,11 @@
 	},
 	"scripts": {
 		"preinstall": "npx only-allow pnpm",
-		"docs:dev": "vitepress dev docs",
+		"docs:dev": "vitepress dev docs --force",
 		"docs:build": "vitepress build docs",
-		"docs:preview": "vitepress preview docs"
+		"docs:preview": "vitepress preview docs",
+		"decap": "pnpx decap-server",
+		"start:dev": "concurrently \"pnpm:docs:dev\" \"pnpm:decap\""
 	},
 	"dependencies": {
 		"decap-cms-app": "^3.0.12"
