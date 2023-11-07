@@ -10,13 +10,22 @@ export default ({
   appearance: 'dark',
   lastUpdated: true,
   rewrites: { 'admin/': 'admin/index.html' },
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+	logo: '/images/MordhauModsLogo_Small.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/modding/introduction/mordhau' },
+      { text: 'Play', link: '/playing/' },
+      { text: 'Host', link: '/hosting/' },
+      { text: 'Mod', link: '/modding/introduction/mordhau' },
       { text: 'Login', link: '/admin/index.html', target: '_self' }
     ],
+	outline: { level: 'deep' },
+	footer: {
+      message: 'Released under the GNU General Public License v3.0',
+      copyright: 'Copyright © 2022-2023 https://github.com/Net-Slayer'
+    },
 	editLink: {
       pattern: 'https://github.com/Net-Slayer/MordhauModsWiki/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
@@ -24,7 +33,8 @@ export default ({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Net-Slayer/MordhauModsWiki' }
     ],
-	lastUpdated: 'Last Updated',
+	externalLinkIcon: true,
+	lastUpdated: true,
 	search: {
 		provider: 'local'
 	},
