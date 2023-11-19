@@ -3,8 +3,10 @@
 	"type": "module",
 	"main": "index.js",
 	"devDependencies": {
+		"@tsconfig/node20": "^20.1.2",
 		"concurrently": "^8.2.2",
 		"decap-server": "^3.0.1",
+		"js-yaml": "^4.1.0",
 		"vitepress": "1.0.0-rc.25",
 		"vitepress-sidebar": "^1.18.0"
 	},
@@ -21,7 +23,7 @@
 		"docs:dev": "vitepress dev docs --force",
 		"docs:build": "vitepress build docs",
 		"docs:preview": "vitepress preview docs",
-		"decap": "pnpx decap-server",
+		"decap": "pnpm exec decap-server",
 		"start:dev": "concurrently \"pnpm:docs:dev\" \"pnpm:decap\""
 	},
 	"dependencies": {
