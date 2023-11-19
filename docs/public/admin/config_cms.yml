@@ -1,0 +1,9 @@
+media_folder: "docs/public/images/uploads"
+public_folder: "/images/uploads"
+publish_mode: editorial_workflow
+site_url: https://Mordhau.MaiaDB.com
+logo_url: '/images/MordhauModsLogo_Large.png'
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
