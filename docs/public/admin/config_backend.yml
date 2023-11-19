@@ -1,0 +1,5 @@
+backend:
+  name: github
+  repo: Net-Slayer/MordhauModsWiki
+  branch: main 
+  base_url: https://mordhaumaiadb-oauth.onrender.com

@@ -1,0 +1,48 @@
+collections:
+  - label: "Main Website"
+    name: "docs"
+    delete: false
+    files:
+        - label: "Homepage"
+          name: "homepage"
+          file: "docs/index.md"
+          comment: "https://vitepress.dev/reference/default-theme-home-page"
+          delete: false
+          fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - {label: "TitleTemplate", name: "titleTemplate", widget: "hidden", default: "false"}
+          - label: "Hero"
+            name: "hero"
+            widget: "objectw"
+            fields:
+              - {label: "Name", name: "name", widget: "hidden"}
+              - {label: "Text", name: "text", widget: "hidden"}
+              - {label: "Tagline", name: "tagline", widget: "string"}
+              - label: "Buttons"
+                name: "actions"
+                identifier_field: text
+                label_singular: "Button"
+                summary: "Button ({{theme}}): {{text}}"
+                widget: "list"
+                fields:
+                  - {label: "Text", name: "text", widget: "string"}
+                  - {label: "Link", name: "link", widget: "string"}
+                  - label: "Theme"
+                    name: "theme"
+                    widget: "select"
+                    options:
+                      - {label: "Main", value: "brand"}
+                      - {label: "Alt", value: "alt"}
+                    default:
+                      - {label: "Alt", value: "alt"}
+  - label: "Posts"
+    name: "posts"
+    folder: "docs/"
+    create: true
+    fields:
+      - label: "Category"
+        name: "category"
+        widget: "string"
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
