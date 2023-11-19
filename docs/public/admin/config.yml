@@ -54,12 +54,22 @@ collections:
                       - {label: "Alt", value: "alt"}
   - label: "Posts"
     name: "posts"
+    label_singular: 'Post'
     folder: "docs/"
     create: true
+    summary: "{{title  | default(<filename>) }}"
+    filter:
+      field: slug
+      pattern: !index
+    nested:
+      depth: 4
+      summary: "{{title | default('<untitled>')}}"
     fields:
       - label: "Category"
-        name: "category"
+        name: "category"     
         widget: "string"
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "CMSfilter", name: "cms-filter", widget: "hidden", default: "{{filename}}.{{extension}}"}
