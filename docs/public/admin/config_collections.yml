@@ -1,36 +1,19 @@
-# Local testing, comment out for production
-# local_backend: true
-
-backend:
-  name: github
-  repo: Net-Slayer/MordhauModsWiki
-  branch: main 
-  base_url: https://mordhaumaiadb-oauth.onrender.com
-media_folder: "docs/public/images/uploads"
-public_folder: "/images/uploads"
-publish_mode: editorial_workflow
-site_url: https://Mordhau.MaiaDB.com
-logo_url: '/images/MordhauModsLogo_Large.png'
-slug:
-  encoding: "ascii"
-  clean_accents: true
-  sanitize_replacement: "_"
 collections:
   - label: "Main Website"
     name: "docs"
     delete: false
     files:
-      - label: "Homepage"
-        name: "homepage"
-        file: "docs/index.md"
-        comment: "https://vitepress.dev/reference/default-theme-home-page"
-        delete: false
-        fields:
+        - label: "Homepage"
+          name: "homepage"
+          file: "docs/index.md"
+          comment: "https://vitepress.dev/reference/default-theme-home-page"
+          delete: false
+          fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - {label: "TitleTemplate", name: "titleTemplate", widget: "hidden", default: "false"}
           - label: "Hero"
             name: "hero"
-            widget: "object"
+            widget: "objectw"
             fields:
               - {label: "Name", name: "name", widget: "hidden"}
               - {label: "Text", name: "text", widget: "hidden"}
@@ -54,22 +37,12 @@ collections:
                       - {label: "Alt", value: "alt"}
   - label: "Posts"
     name: "posts"
-    label_singular: 'Post'
     folder: "docs/"
     create: true
-    summary: "{{title  | default(<filename>) }}"
-    filter:
-      field: slug
-      pattern: !index
-    nested:
-      depth: 4
-      summary: "{{title | default('<untitled>')}}"
     fields:
       - label: "Category"
-        name: "category"     
+        name: "category"
         widget: "string"
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "CMSfilter", name: "cms-filter", widget: "hidden", default: "{{filename}}.{{extension}}"}

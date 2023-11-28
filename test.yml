@@ -1,0 +1,82 @@
+collections:
+  - name: index.md
+    label: Path
+    files:
+      - docs\hosting\index.md
+    subCollections:
+      - name: index.md
+        label: Path
+        files:
+          - docs\hosting\index.md
+  - name: advanced-topics
+    label: Path
+    files:
+      - docs\modding\advanced-topics
+    subCollections:
+      - name: advanced-topics
+        label: Path
+        files:
+          - docs\modding\advanced-topics
+  - name: custom-content
+    label: Path
+    files:
+      - docs\modding\custom-content
+    subCollections:
+      - name: custom-content
+        label: Path
+        files:
+          - docs\modding\custom-content
+  - name: gamemodes
+    label: Path
+    files:
+      - docs\modding\gamemodes
+    subCollections:
+      - name: gamemodes
+        label: Path
+        files:
+          - docs\modding\gamemodes
+  - name: getting-started
+    label: Path
+    files:
+      - docs\modding\getting-started
+    subCollections:
+      - name: getting-started
+        label: Path
+        files:
+          - docs\modding\getting-started
+  - name: index.md
+    label: Path
+    files:
+      - docs\modding\index.md
+    subCollections:
+      - name: index.md
+        label: Path
+        files:
+          - docs\modding\index.md
+  - name: introduction
+    label: Path
+    files:
+      - docs\modding\introduction
+    subCollections:
+      - name: introduction
+        label: Path
+        files:
+          - docs\modding\introduction
+  - name: maps
+    label: Path
+    files:
+      - docs\modding\maps
+    subCollections:
+      - name: maps
+        label: Path
+        files:
+          - docs\modding\maps
+  - name: index.md
+    label: Path
+    files:
+      - docs\playing\index.md
+    subCollections:
+      - name: index.md
+        label: Path
+        files:
+          - docs\playing\index.md
