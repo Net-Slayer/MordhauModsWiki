@@ -1,2 +1,6 @@
+---
+title: Playing
+---
+
 # Playing with mods 
 ## Work in progress

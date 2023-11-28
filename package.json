@@ -3,6 +3,7 @@
 	"type": "module",
 	"main": "index.js",
 	"devDependencies": {
+		"@staticcms/proxy-server": "^4.0.4",
 		"@tsconfig/node20": "^20.1.2",
 		"concurrently": "^8.2.2",
 		"js-yaml": "^4.1.0",
@@ -22,8 +23,8 @@
 		"docs:dev": "vitepress dev docs --force",
 		"docs:build": "vitepress build docs",
 		"docs:preview": "vitepress preview docs",
-		"decap": "pnpm exec decap-server",
-		"start:dev": "concurrently \"pnpm:docs:dev\" \"pnpm:decap\""
+		"staticcms": "pnpm exec static-cms-proxy-server",
+		"start:dev": "concurrently \"pnpm:docs:dev\" \"pnpm:staticcms\""
 	},
 	"pnpm": {
 		"peerDependencyRules": {

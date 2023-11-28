@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex" />
   <title>Content Manager</title>
+  <link rel="stylesheet" href="https://unpkg.com/@staticcms/app@^3.0.0/dist/main.css" />
+  <link href="config.yml" type="text/yaml" rel="cms-config-url" />
   <!-- <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.27/darkreader.min.js"></script> -->
 <!-- <script> -->
   <!-- DarkReader.enable(); -->
@@ -39,7 +41,7 @@ html, body {
 </style>
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script src="https://unpkg.com/@staticcms/app@^3.0.0/dist/static-cms-app.js"></script>
   <script>
 
 	  var configLocal = {
@@ -52,7 +54,7 @@ html, body {
 		CMS.init(configLocal);
 		console.log("Local testing enabled");
 	  };
-	  
+	  CMS.init();
 	</script>
 </body>
 </html>
