@@ -4,15 +4,16 @@
 	"main": "index.js",
 	"devDependencies": {
 		"@tsconfig/node20": "^20.1.2",
-		"concurrently": "^8.2.2",
-		"decap-server": "^3.0.1",
+		"gray-matter": "^4.0.3",
 		"js-yaml": "^4.1.0",
-		"vitepress": "1.0.0-rc.25",
+		"tsconfig-paths": "^4.2.0",
+		"vite-tsconfig-paths": "^4.2.1",
+		"vitepress": "1.0.0-rc.31",
 		"vitepress-sidebar": "^1.18.0"
 	},
 	"peerDependencies": {
-		"vite": "^4.4.7",
-		"vue": "^3.3.4"
+		"vite": "^5.0.2",
+		"vue": "^3.3.9"
 	},
 	"engines": {
 		"npm": "Please use pnpm",
@@ -27,6 +28,7 @@
 		"start:dev": "concurrently \"pnpm:docs:dev\" \"pnpm:decap\""
 	},
 	"dependencies": {
+		"@types/node": "^20.10.0",
 		"decap-cms-app": "^3.0.12"
 	},
 	"pnpm": {
