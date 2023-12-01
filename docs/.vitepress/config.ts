@@ -70,7 +70,7 @@ export default ({
 
     // Call the function and pass the file names
     mergeConfigs(fileNames)
-	autoIndexDirs('./docs')
+	  // autoIndexDirs('./docs')
   }
 
 
