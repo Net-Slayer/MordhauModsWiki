@@ -1,0 +1,42 @@
+{
+ "extends": "@tsconfig/node20/tsconfig.json",
+ "compilerOptions": {
+   "lib": ["es2023"],
+   "module": "node16",
+   "target": "es2022",
+
+   "strict": true,
+   "esModuleInterop": true,
+   "skipLibCheck": true,
+   "forceConsistentCasingInFileNames": true,
+   "moduleResolution": "node16",
+
+   "types": ["node20"],
+
+   "allowSyntheticDefaultImports": true,
+   "resolveJsonModule": true,
+   "sourceMap": true,
+   "allowImportingTsExtensions": true,
+
+   "outDir": "docs/.vitepress/dist/scripts",
+   "rootDir": "docs/.vitepress/scripts",
+   "baseUrl": ".",
+
+   "paths": { "*": ["node_modules/*"]  }
+ },
+ "include": [
+	 "docs/.vitepress/scripts/**/*.ts",
+	 "docs/.vitepress/scripts/**/*.vue",
+	 ],
+   "include": [
+     "docs/.vitepress/scripts",
+     "typings/**/*.d.ts",
+     "docs/**/*.vue",
+     "docs/**/*.tsx",
+     "docs/**/*.ts",
+     "docs/.**/**/*.ts",
+     "docs/.**/**/*.tsx",
+     "docs/.**/**/*.vue"
+     ],
+ "exclude": ["**/node_modules/**","docs/.vitepress/dist/"]
+}
