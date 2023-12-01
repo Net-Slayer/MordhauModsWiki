@@ -1,5 +1,5 @@
-import generateCollections from './docs/.vitepress/scripts/folderCollection.ts'
+import autoIndexDirs from './docs/.vitepress/scripts/processFrontmatter.ts'
 
-console.log('folder collection test');
-generateCollections();
+console.log('Updating index.md files');
+autoIndexDirs('docs/');
 console.log('test complete');
