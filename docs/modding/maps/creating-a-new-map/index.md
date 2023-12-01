@@ -1,5 +1,5 @@
 ---
-title: Playing
+title: Creating A New Map
 cmsvisible: false
 ---
 

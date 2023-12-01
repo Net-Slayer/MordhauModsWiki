@@ -1,4 +1,6 @@
 ---
+title: ReadMe
+cmsvisible: false
 description: This community-made wiki is a series of tutorials designed to help you create mods for mordhau using the Official Mordhau SDK
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Playing
+title: Introduction
 cmsvisible: false
 ---
 

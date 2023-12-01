@@ -1,5 +1,5 @@
 ---
-title: Playing
+title: Maps
 cmsvisible: false
 ---
 

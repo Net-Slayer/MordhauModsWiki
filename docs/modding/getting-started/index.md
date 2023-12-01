@@ -1,5 +1,5 @@
 ---
-title: Playing
+title: Getting Started
 cmsvisible: false
 ---
 

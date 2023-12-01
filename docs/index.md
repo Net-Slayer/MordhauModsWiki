@@ -1,5 +1,6 @@
 ---
 title: Home
+cmsvisible: false
 layout: home
 titleTemplate: false
 hero:
@@ -19,7 +20,7 @@ hero:
     - theme: alt
       text: Hosting modded servers
       link: /server-hosting
-	  
+
 features:
   - icon: 🚀
     title: Mordhau
