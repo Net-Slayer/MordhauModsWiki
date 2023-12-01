@@ -1,5 +1,5 @@
 # Local testing, comment out for production
-local_backend: true
+# local_backend: true
 
 backend:
   name: github
