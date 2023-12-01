@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
 import mergeConfigs from './scripts/mergeConfigs'
-import autoIndexDirs from './scripts/processFrontmatter.ts'
+// import autoIndexDirs from './scripts/processFrontmatter.ts'
 
 // https://vitepress.dev/reference/site-config
 export default ({
