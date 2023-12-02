@@ -24,7 +24,7 @@
 		"docs:dev": "vitepress dev docs --force",
 		"docs:build": "vitepress build docs",
 		"docs:preview": "vitepress preview docs",
-		"decap": "pnpm exec decap-server",
+		"decap": "pnpm dlx decap-server",
 		"start:dev": "concurrently \"pnpm:docs:dev\" \"pnpm:decap\""
 	},
 	"dependencies": {
