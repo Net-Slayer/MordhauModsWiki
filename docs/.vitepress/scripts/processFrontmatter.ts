@@ -55,14 +55,24 @@ const autoIndexDirs = async (folderPath: string): Promise<void> => {
           await autoIndexDirs(filePath);
         }
 
-      } else if(path.extname(filePath).toLowerCase() === '.md') {
-        // if (!ignoreDirs.some((ignoredDir) => directoryPath.includes(ignoredDir))) {
-        // Need to check for non-index
-        // }
+      } else if(path.extname(filePath).toLowerCase() === '.md' && path.basename(filePath) !== 'index.md') {
+        if (!ignoreDirs.some((ignoredDir) => filePath.includes(ignoredDir))) {
+        // check for non-index
+          const fileContent = await fs.readFile(filePath, 'utf-8');
+          const newTitle = extractTitle(fileContent) || formatName(path.parse(filePath).name)
+          let { frontmatter, updatedContent } = updateFrontmatter(
+            fileContent,
+             'title',
+              newTitle,
+              true);
+          await fs.writeFile(filePath, updatedContent);
+          console.log(`updated ${filePath} title to ${newTitle}`)
+
+        }
       }
     }
 
-    }
+
   } catch (error) {
     console.error(`Error processing ${folderPath}: ${error.message}`);
   }

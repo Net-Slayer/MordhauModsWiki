@@ -1,5 +1,5 @@
 # Local testing, comment out for production
-# local_backend: true
+local_backend: true
 
 backend:
   name: github
@@ -17,7 +17,7 @@ slug:
   sanitize_replacement: "_"
 collections:
   - label: "Main Website"
-    name: "docs"
+    name: "main"
     delete: false
     files:
       - label: "Homepage"
@@ -52,24 +52,13 @@ collections:
                       - {label: "Alt", value: "alt"}
                     default:
                       - {label: "Alt", value: "alt"}
-  - label: "Posts"
-    name: "posts"
+  - name: posts
+    label: Posts
     label_singular: 'Post'
-    folder: "docs"
+    folder: docs
     create: true
-    summary: "{{title | default('<file>')}} - {{filename}}"
-    filter:
-      field: cmsvisible
-      pattern: ''
-    nested:
-      depth: 100
-      summary: "{{dirname | upper}}"
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    path: '{{slug}}'
+    # meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
-      - label: "Category"
-        name: "category"
-        widget: "string"
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Meta description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
