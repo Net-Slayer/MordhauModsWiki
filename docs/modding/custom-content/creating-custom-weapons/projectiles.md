@@ -1,5 +1,6 @@
 ---
 description: Projectile Weapon Creation
+title: Projectiles
 ---
 
 # Projectiles

@@ -1,5 +1,6 @@
 ---
 description: Commonly used weapon variables with descriptiions
+title: Weapon Variables
 ---
 
 # Weapon Variables

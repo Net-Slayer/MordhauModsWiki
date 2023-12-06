@@ -1,5 +1,5 @@
 ---
-title: testing post
+title: VitePress Markdown Test
 description: just all kinds of testing
 ---
 # VitePress Markdown Test

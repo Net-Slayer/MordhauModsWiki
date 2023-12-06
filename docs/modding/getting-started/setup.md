@@ -1,2 +1,5 @@
+---
+title: Setup
+---
 # Setup
 
