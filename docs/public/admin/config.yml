@@ -1,5 +1,5 @@
 # Local testing, comment out for production
-local_backend: true
+# local_backend: true
 
 backend:
   name: github
@@ -57,8 +57,12 @@ collections:
     label_singular: 'Post'
     folder: docs
     create: true
-    path: '{{slug}}'
+    # path: '{{slug}}'
     # meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    # nested:
+      # depth: 4
+    summary: "{{dirname | default('.')}}/{{title}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+    
