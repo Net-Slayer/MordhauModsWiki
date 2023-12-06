@@ -1,3 +1,6 @@
+---
+title: Mordhau
+---
 # Mordhau
 (WIP)
 Overview of the game and its unique features.

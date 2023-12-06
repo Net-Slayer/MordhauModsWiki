@@ -1,3 +1,6 @@
+---
+title: uSDK to SDK
+---
 # uSDK to SDK
 
 ## Unofficial Mordhau SDK (uSDK): A Modding Breakthrough

@@ -4,7 +4,7 @@ local_backend: true
 backend:
   name: github
   repo: Net-Slayer/MordhauModsWiki
-  branch: main 
+  branch: main
   base_url: "https://mordhaumaiadb-oauth.onrender.com"
 media_folder: "docs/public/images/uploads"
 public_folder: "/images/uploads"
@@ -16,8 +16,8 @@ slug:
   clean_accents: true
   sanitize_replacement: "_"
 collections:
-  - label: 'Main Website'
-    name: 'docs'
+  - label: "Main Website"
+    name: "main"
     delete: false
     files:
       - name: 'homepage'
@@ -49,28 +49,20 @@ collections:
                     label: 'Theme'
                     widget: 'select'
                     options:
-                      - {label: 'Main', value: 'brand'}
-                      - {label: 'Alt', value: 'alt'}
-                    default: 'alt'
-                      
-  - label: 'Posts'
-    name: 'posts'
+                      - {label: "Main", value: "brand"}
+                      - {label: "Alt", value: "alt"}
+                    default:
+                      - {label: "Alt", value: "alt"}
+  - name: posts
+    label: Posts
     label_singular: 'Post'
-    folder: 'docs/'
+    folder: docs
     create: true
-    summary: "{{title | default('<Untitled>')}} - {{path}}"
-  # field: title
-    filter:
-      pattern: '^(?!.*index\.md$).*$'
-    nested:
-      depth: 4
-      summary: "{{title | default('Untitled Dir')}}"
+    # path: '{{slug}}'
+    # meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    # nested:
+      # depth: 4
+    summary: "{{dirname | default('.')}}/{{title}}"
     fields:
-      - label: 'Category'
-        name: 'category'     
-        widget: 'string'
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Meta description', name: 'description', widget: 'string'}
-      - {label: 'Body', name: 'body', widget: 'markdown'}
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
-    # - {label: 'CMSfilter', name: 'cms-filter', widget: 'hidden', default: '{{filename}}.{{extension}}'}
+      - {label: "Title", name: "title", widget: "string"}
+    

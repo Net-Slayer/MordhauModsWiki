@@ -1,6 +1,5 @@
 ---
 title: Playing
+cmsvisible: false
 ---
 
-# Playing with mods 
-## Work in progress

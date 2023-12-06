@@ -1,17 +1,18 @@
 import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
-import  mergeConfigs from './scripts/mergeConfigs';
+import mergeConfigs from './scripts/mergeConfigs'
+// import autoIndexDirs from './scripts/processFrontmatter.ts'
 
 // https://vitepress.dev/reference/site-config
 export default ({
-	
+
   title: "Mordhau Mods Wiki",
   description: "A community modding wiki for mordhau",
   titleTemplate: ':title - Mordhau Mods Wiki',
   appearance: 'dark',
   lastUpdated: true,
   rewrites: { 'admin/': 'admin/index.html' },
- 
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 	logo: '/images/MordhauModsLogo_Small.png',
@@ -57,7 +58,7 @@ export default ({
 		]
 		}),
   },
-  
+
   async buildEnd(siteConfig) {
     // Define the file names
     const fileNames = [
@@ -69,6 +70,7 @@ export default ({
 
     // Call the function and pass the file names
     mergeConfigs(fileNames)
+	  // autoIndexDirs('./docs')
   }
 
 

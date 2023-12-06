@@ -1,30 +1,49 @@
 {
- "extends": "@tsconfig/node20/tsconfig.json",
- "compilerOptions": {
-   "target": "es2022",
-   "module": "node16",
-   "moduleResolution": "node16",
-   "esModuleInterop": true,
-   "skipLibCheck": true,
-   "forceConsistentCasingInFileNames": true,
-   "resolveJsonModule": true,
-   "sourceMap": true,
-   "strict": true,
-   "allowImportingTsExtensions": true,
-   "lib": ["es2023"],
-   "outDir": "docs/.vitepress/dist/scripts",
-   "rootDir": "docs/.vitepress/scripts",
-   "baseUrl": ".",
-   "types": ["node20"],
-   "paths": {
-     "*": [
-       "node_modules/*"
-     ]
-   }
- },
- "include": [
-	 "docs/.vitepress/scripts/**/*.ts",
-	 "docs/.vitepress/scripts/**/*.vue",
-	 ],
- "exclude": ["node_modules/","docs/.vitepress/dist/"]
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "skipLibCheck": true,
+
+    "strict": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "verbatimModuleSyntax": true,
+
+    "noEmit": true,
+    "useDefineForClassFields": true,
+    "noUnusedLocals": true,
+    "allowImportingTsExtensions": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "types": ["vite/client", "node"],
+
+    "baseUrl": ".",
+    "paths": {
+      "scripts/*": ["./docs/.vitepress/scripts/*"],
+      "@/*": ["./docs/.vitepress/*"],
+      "*": ["node_modules/*"]
+    },
+    "outDir": "docs/.vitepress/dist/scripts",
+    "rootDir": "docs/.vitepress/scripts",
+
+
+  },
+
+  "exclude": ["**/node_modules/**", "**/dist/**", "template"],
+  "extensions": [".js", ".ts", ".tsx", ".jsx", ".vue"],
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "ts-node": {
+    "esm": true,
+    "require": ["tsconfig-paths/register"],
+    "experimentalSpecifierResolution": "node",
+    "experimentalTsImportSpecifiers": true,
+  }
 }

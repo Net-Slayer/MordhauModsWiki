@@ -1,6 +1,5 @@
 ---
 title: Hosting
+cmsvisible: false
 ---
 
-# Hosting Mods
-## Work in progress

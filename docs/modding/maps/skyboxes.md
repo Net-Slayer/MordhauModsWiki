@@ -1,2 +1,5 @@
+---
+title: Skyboxes
+---
 # Skyboxes
 

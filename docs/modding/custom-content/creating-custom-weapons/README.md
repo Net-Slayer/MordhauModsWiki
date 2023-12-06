@@ -1,5 +1,6 @@
 ---
 description: How to Create Custom Weapons
+title: Creating Custom Weapons
 ---
 
 # Creating Custom Weapons
